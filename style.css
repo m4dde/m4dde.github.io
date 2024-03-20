@@ -19,6 +19,15 @@ h1 {
     color: #301A33;
 }
 
+nav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 nav a {
     color: #4E5AEB;
     text-align: center;
