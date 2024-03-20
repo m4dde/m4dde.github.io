@@ -15,12 +15,8 @@ body {
     background-color: #78687A;
 }
 
-h1 {
-    color: #301A33;
-}
-
 nav {
-    background-color: #333;
+    background-color: #ffffff;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -29,9 +25,10 @@ nav {
 }
 
 nav a {
-    color: #4E5AEB;
+    background: #ffff;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
     font-size: 15px;
 }
