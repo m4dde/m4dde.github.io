@@ -12,7 +12,7 @@ body {
 }
 
 body {
-    background-color: #78687A;
+    background-image: linear-gradient(to bottom right, #BAB1E2, #DFAEA1, #FFFCD8);
 }
 
 nav {
