@@ -12,13 +12,17 @@ body {
 }
 
 body {
-    background-image: linear-gradient(to bottom right, #BAB1E2, #DFAEA1, #FFFCD8);
+    display: grid;
+    background-image: radial-gradient(circle, #dadada, #93a0c6);
 }
 
 nav {
     background-color: #ffffff;
     overflow: hidden;
-    display: flex;
+    display: grid;
+    height: 100%;
+    width: 200px;
+    position: fixed;
     justify-content: center;
     margin: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,6 +35,7 @@ nav a {
     padding: 20px 16px;
     text-decoration: none;
     font-size: 15px;
+    width: 200px;
 }
 
 nav a:hover {
