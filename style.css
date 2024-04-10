@@ -47,3 +47,10 @@ nav a:active {
     background-color: aliceblue;
     color: aliceblue;
 }
+
+.section {
+    display: grid;
+    padding: 20px;
+    margin-left: 220px;
+    border: solid black 1px;
+}
