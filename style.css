@@ -21,11 +21,12 @@ nav {
     overflow: hidden;
     display: grid;
     height: 100%;
-    width: 200px;
+    width: 220px;
     position: fixed;
     justify-content: center;
     margin: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
 }
 
 nav a {
@@ -50,7 +51,7 @@ nav a:active {
 
 .section {
     display: grid;
-    padding: 20px;
+    padding: 120px;
     margin-left: 220px;
     border: solid black 1px;
 }
