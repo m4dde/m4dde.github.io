@@ -29,7 +29,7 @@ nav {
 }
 
 nav a {
-    background: #ffff;
+    /*background: #ffff;*/
     color: #000000;
     text-align: center;
     padding: 20px 16px;
@@ -39,13 +39,11 @@ nav a {
 }
 
 nav a:hover {
-    background-color: black;
-    color: rgb(255, 255, 255);
+    color: aliceblue;
 }
 
 nav a:active {
-    background-color: aliceblue;
-    color: aliceblue;
+    /*color: aliceblue;*/
 }
 
 section {
