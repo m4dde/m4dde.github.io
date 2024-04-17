@@ -17,7 +17,6 @@ body {
 }
 
 nav {
-    
     overflow: hidden;
     display: grid;
     height: 100%;
@@ -51,7 +50,7 @@ nav a:active {
 
 section {
     display: grid;
-    padding: 120px;
+    padding: 130px;
     margin-left: 260px;
     border: solid black 1px;
 }
