@@ -22,9 +22,9 @@ nav {
     display: grid;
     height: 100%;
     width: 220px;
+    margin-left: 40px;
     position: fixed;
     justify-content: center;
-    margin: auto;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
 }
@@ -49,9 +49,9 @@ nav a:active {
     color: aliceblue;
 }
 
-.section {
+section {
     display: grid;
     padding: 120px;
-    margin-left: 220px;
+    margin-left: 260px;
     border: solid black 1px;
 }
