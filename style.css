@@ -20,7 +20,7 @@ nav {
     overflow: hidden;
     display: grid;
     height: 100%;
-    width: 220px;
+    width: 190px;
     margin-left: 40px;
     position: fixed;
     justify-content: center;
@@ -32,7 +32,6 @@ nav a {
     /*background: #ffff;*/
     color: #000000;
     text-align: center;
-    padding: 20px 16px;
     text-decoration: none;
     font-size: 15px;
     width: 200px;
@@ -48,6 +47,7 @@ nav a:active {
 
 section {
     display: grid;
+    justify-content: flex-end;
     padding: 130px;
     margin-left: 260px;
     border: solid black 1px;
