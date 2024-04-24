@@ -33,8 +33,10 @@ nav a {
     color: #000000;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     width: 200px;
+    font-family: "Elsie", serif;
+    font-weight: 600;
 }
 
 nav a:hover {
@@ -48,7 +50,7 @@ nav a:active {
 section {
     display: grid;
     justify-content: flex-end;
-    padding: 130px;
+    padding: 150px;
     margin-left: 260px;
-    border: solid black 1px;
+    border: solid #93a0c6 1px;
 }
