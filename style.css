@@ -11,6 +11,10 @@ body {
     height: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     display: grid;
     background-image: radial-gradient(circle, #dadada, #93a0c6);
