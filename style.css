@@ -56,4 +56,5 @@ section {
     padding: 200px;
     margin-left: 260px;
     border: solid #93a0c6 1px;
+    align-content: flex-start;
 }
