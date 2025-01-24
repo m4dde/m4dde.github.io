@@ -36,3 +36,30 @@ const ProjectCarousel = () => {
   const handleNext = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.length);
   };
+
+  const handlePrevious = () => {
+    setCurrentIndex((prevIndex) => 
+      (prevIndex - 1 + projects.length) % projects.length
+    );
+  };
+
+  return (
+    <div style={{ textAlign: 'center', marginTop: '50px' }}>
+      <h1>Prosjektnavigasjon</h1>
+      <div style={{ border: '1px solid #ccc', padding: '20px', width: '300px', margin: 'auto' }}>
+        <h2>{projects[currentIndex].title}</h2>
+        <p>{projects[currentIndex].description}</p>
+      </div>
+      <div style={{ marginTop: '20px' }}>
+        <button onClick={handlePrevious} style={{ marginRight: '10px' }}>
+          ← Forrige
+        </button>
+        <button onClick={handleNext}>
+          Neste →
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default ProjectCarousel;

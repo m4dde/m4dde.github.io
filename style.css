@@ -17,6 +17,7 @@ html {
 
 body {
     display: grid;
+    background: #5d7599;
 }
 
 nav {
