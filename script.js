@@ -50,12 +50,10 @@ const ProjectCarousel = () => {
         <h2>{projects[currentIndex].title}</h2>
         <p>{projects[currentIndex].description}</p>
       </div>
-      <div style={{ marginTop: '20px' }}>
+      <div style={{ marginTop: '15px' }}>
         <button onClick={handlePrevious} style={{ marginRight: '10px' }}>
-          ← Forrige
         </button>
         <button onClick={handleNext}>
-          Neste →
         </button>
       </div>
     </div>
