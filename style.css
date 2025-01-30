@@ -11,11 +11,36 @@ body {
     height: 100%;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     display: grid;
     background: #5d7599;
+}
+
+main {
+    position: relative;
+    display: flex;
+    z-index: 5;
+}
+
+#intro {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+#title {
+    margin-left: 9rem;
+    margin-top: 100px;
+}
+
+.text {
+    margin-top: 10rem;
+    margin-left: 10px;
+    border: solid 2px black;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 7px;
+    width: 450px;
+    font-size: 25px;
+    color: black;
 }
