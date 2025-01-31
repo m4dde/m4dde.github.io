@@ -50,3 +50,35 @@ main {
     font-size: 25px;
     color: black;
 }
+
+#sections {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+#card {
+    display: grid;
+    justify-content: center;
+    box-shadow: 30 20px 11px 0 rgb(0,0,0,0.2);
+    transition: 0.3s;
+    width: 240px;
+    height: 255px;
+    border: solid 1px #8890e5;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+    position: relative;
+    background-color: #7f90dd;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-block-start: 95px;
+    border: 1px;
+    padding: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+}
